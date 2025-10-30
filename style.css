@@ -1,0 +1,116 @@
+/*BODY*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #202124;
+}
+
+/* HEADER */
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 30px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #202124;
+  font-size: 14px;
+}
+
+header nav a img {
+  width: 30px;
+  height: 35px;
+}
+
+.login-btn {
+
+  padding: 6px 10px;
+  background: #1a73e8;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/*  MAIN */
+
+.logo-google {
+  margin: 100px auto 20px;
+  display: block;        /* imagem em bloco */
+  width: 400px;          /* largura */
+  height: 190px;          /* altura */
+}
+/* caixa de pesquisa*/
+
+form input[type="text"] {
+  width: 500px;
+  max-width: 90%;
+  padding: 12px 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 24px; /*arredondar*/
+  font-size: 16px;
+  outline: none; /*remove o contorno*/
+  box-shadow: 0 1px 6px rgba(32,33,36,.28); /*sombra atrás*/
+}
+
+/* botões */
+.botoes {
+  margin-top: 20px;
+}
+
+.botoes button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background: #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.botoes button:hover {
+  border: 1px solid #dadce0;
+} /*quando o mouse ppassar por cima ativa o botão*/
+
+/*RODAPÉ*/
+
+footer {
+  background-color: #f2f2f2;
+  font-size: 14px;
+  color: #555;
+  margin-top: 40px;
+}
+
+.topo-rodapé {
+  text-align: left;
+  padding: 12px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.links-rodapé {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 12px 20px;
+}
+
+.links-rodapé .esquerda a,
+.links-rodapé .direita a {
+  color: #555;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.links-rodapé .direita a:last-child {
+  margin-right: 0;
+}
+
+.links-rodapé a:hover {
+  text-decoration: underline;
+}
